@@ -1,0 +1,10 @@
+@font-face {
+	font-family: 'lg';
+	src: url(../../assets/fonts/lg-c848f4619c8cf9c0e8ef6cba3b07e903.eot?n1z373=) format('embedded-opentype'),
+	url(../../assets/fonts/lg-c848f4619c8cf9c0e8ef6cba3b07e903.eot) format('embedded-opentype'),
+	url(../../assets/fonts/lg-2236a32f61d7a8843dc8be9c676a0a81.woff?n1z373=) format('woff'),
+	url(../../assets/fonts/lg-75f2a20a450d9c0ce7cc9fa44a96a9b7.ttf?n1z373=) format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: auto;
+}

@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  /*
+   --color-primary: #b22222;
+   --color-tertiary: #191970;
+   --color-secondary: #ffde59;
+  --color-secondary-alt: #FFF6F4;
+  --color-tertiary-2: #7152E9;
+  --color-dark: #231F40;
+  --color-body: #6F6B80;
+  --color-heading: #231F40;
+  --color-white: #ffffff;
+  --color-shape: #EEEEEE;
+  --color-shade: #F5F5F5;
+  --color-border: #EEEEEE;
+  --color-black: #000000;
+  --color-blackest: #0f0f11;
+  --color-extra01: #666666;
+  --color-extra02: #606770;
+  --color-extra03: #FBFBFD;
+  --color-extra04: #1A1A1A;
+  --color-extra05: #242424;
+  --color-extra06: #DBF1C0;
+  --color-extra07: #C6ECE8;
+  --color-extra08: #C3ECCE;
+  --color-success: #3EB75E;
+  --color-danger: #FF0003;
+  --color-warning: #FF8F3C;
+  --color-info: #1BA2DB;
+  --color-facebook: #3B5997;
+  --color-twitter: #1BA1F2;
+  --color-youtube: #ED4141;
+  --color-linkedin: #0077B5;
+  --color-pinterest: #E60022;
+  --color-instagram: #C231A1;
+  --color-vimeo: #00ADEF;
+  --color-twitch: #6441A3;
+  --color-discord: #7289da;
+  */
+
+  /* Primary (CTA, highlights) */
+  --color-primary: #D72638;
+  --color-primary-hover: #B71C1C;
+
+  /* Dark Blue (headers, nav, footer, strong backgrounds) */
+  --color-dark: #1A1A2E;
+
+  /* Backgrounds */
+  --color-white: #FFFFFF;
+  --color-shade: #F5F5F5;
+  --color-shape: #F5F5F5;
+
+  /* Typography */
+  --color-heading: #1A1A2E;
+  --color-body: #6F6B80; /* Body text: nötr gri – kontrast uyumu yüksek */
+
+  /* Optional palette items you can keep (unchanged or neutral) */
+  --color-border: #EEEEEE;
+  --color-black: #000000;
+  --color-blackest: #0f0f11;
+
+  --color-extra01: #666666;
+  --color-extra02: #606770;
+  --color-extra03: #FBFBFD;
+  --color-extra04: #1A1A1A;
+  --color-extra05: #242424;
+
+  /* Status colors (keep as-is unless client requests change) */
+  --color-success: #3EB75E;
+  --color-danger: #FF0003;
+  --color-warning: #FF8F3C;
+  --color-info: #1BA2DB;
+
+  /* Social colors (unchanged) */
+  --color-facebook: #3B5997;
+  --color-twitter: #1BA1F2;
+  --color-youtube: #ED4141;
+  --color-linkedin: #0077B5;
+  --color-pinterest: #E60022;
+  --color-instagram: #C231A1;
+  --color-vimeo: #00ADEF;
+  --color-twitch: #6441A3;
+  --color-discord: #7289da;
+
+    --font-primary: 'Poppins', sans-serif;
+    --font-secondary: 'Open Sans', sans-serif;
+}
+.container {
+  max-width: 1120px;
+}
+
+* {
+  margin: 0px auto;
+  padding: 0px;
+  font-family: "Lato", sans-serif;
+}
+
+.button:hover {
+  background: #c3960e;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+  transform: scale(1.25);
+  color: var(--bs-dark);
+}
+
+.button {
+  background: var(--bs-yellow);
+  border-radius: 50px;
+  color: var(--bs-dark);
+}
+
+.text-left{
+  text-align: left;
+}
+
+/**/
+.footer-style-default .edu-footer-widget .footer-link li{float:left;width:100%;}
+.footer-style-default .edu-footer-widget .footer-link li a{float:left;}
+.footer-style-default .edu-footer-widget .footer-link li i{float:left;margin-top:5px;margin-right: 5px;color:#fff;}
+.footer-style-default .information-list li i{float:left;margin: 5px;color:#fff;}
+.footer-style-default .information-list li a{float:left;margin:0 0 0 5px;}
+.social-share li a svg{margin:10px;}
+.clearfix{clear: both;}
+.new_testimonial .thumbnail img{border-radius: 100%;width:250px;height:250px;object-fit: cover;object-position: top;}
+.edu-newsletter-area h5.title{font-size:32px;}
+.newsletter-style-3{background-image: url(../../assets/img/bg/homecontactbg.jpg);
+    position: relative;
+    background-color: #000;
+    background-blend-mode: hard-light;}
+
+
+    .edu-header.header-sticky.header-transparent.header-style-2.header-default.sticky{ margin-right: 0!important; }
+    .d-block.d-xl-none.mobile-menu-bar.ml--15.ml_sm--5{margin-right: 25px;}
+
+    .cblur::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: blur(10px);
+  transform: scale(1.1); /* kenarlarda boşluk oluşmasın */
+  z-index: -1;
+}
+.mainmenu-nav .mainmenu li.has-droupdown > a::after{right:-25px!important;}
+.contact-address-card-1:hover{background: var(--color-primary);}
+.course-details-content .edu-course-tab .nav-item .nav-link{font-size:15px;}
+.course-details-content .edu-course-tab .nav-item{margin:0 5px;}
